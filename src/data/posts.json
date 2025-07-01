@@ -1,0 +1,16 @@
+{
+    "posts": [
+        {
+            "id": "next.js13-udemy",
+            "title": "Next.js13をudemyで学ぶ",
+            "content": "shincodeさんの教材でNext.js13を学んでいます。",
+            "createdAt": "2025/07/01"
+        },
+        {
+            "id": "json-server",
+            "title": "JSONサーバー",
+            "content": "json-serverは、ローカルで使える簡単なREST APIモックサーバーです。フロント開発のテストに便利です。",
+            "createdAt": "2025/07/02"
+        }
+    ]
+}
