@@ -9,7 +9,7 @@
     {
       "id": "json-server",
       "title": "JSONサーバー",
-      "content": "json-serverは、ローカルで使えるREST APIモックサーバーとして非常に便利。フロントエンド開発のテストデータ管理や、仮のAPIとして手軽に利用開始できます。",
+      "content": "json-serverは、ローカルで使える簡単なREST APIモックサーバーとして非常に便利。フロントエンド開発のテストデータ管理や、仮のAPIとして手軽に利用開始できます。",
       "createdAt": "2025/07/04"
     },
     {
@@ -26,22 +26,7 @@
     {
       "id": "second post",
       "title": "2回目の投稿",
-      "content": "これは2回目の投稿です！"
-    },
-    {
-      "id": "",
-      "title": "",
-      "content": ""
-    },
-    {
-      "id": "fourth post",
-      "title": "4回目の投稿",
-      "content": "４回目の投稿です！"
-    },
-    {
-      "id": "",
-      "title": "",
-      "content": ""
+      "content": "これは2回目の投稿です!"
     }
   ]
 }
