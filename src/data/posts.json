@@ -21,38 +21,32 @@
     {
       "id": "Posts1",
       "title": "1回目の投稿",
-      "content": "1回目の投稿です！",
+      "content": "1回目の投稿です!",
       "createdAt": "2025-07-08T10:40:06.821Z"
     },
     {
       "id": "Posts2",
       "title": "2回目の投稿",
-      "content": "2回目の投稿です！",
+      "content": "2回目の投稿です!",
       "createdAt": "2025-07-08T10:43:24.011Z"
     },
     {
       "id": "Posts3",
       "title": "3回目の投稿",
-      "content": "3回目の投稿です！",
+      "content": "3回目の投稿です!",
       "createdAt": "2025-07-08T11:01:26.831Z"
     },
     {
       "id": "Posts4",
       "title": "4回目の投稿",
-      "content": "4回目の投稿です！",
+      "content": "4回目の投稿です!",
       "createdAt": "2025-07-08T11:03:13.404Z"
     },
     {
       "id": "Post5",
       "title": "5回目の投稿",
-      "content": "5回目の投稿です！",
+      "content": "5回目の投稿です!",
       "createdAt": "2025-07-08T11:20:32.871Z"
-    },
-    {
-      "id": "Post6",
-      "title": "6回目の投稿",
-      "content": "6回目の投稿です！",
-      "createdAt": "2025-07-08T11:22:09.464Z"
     }
   ]
 }
