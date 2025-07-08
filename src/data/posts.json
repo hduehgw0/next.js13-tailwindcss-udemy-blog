@@ -1,16 +1,36 @@
 {
-    "posts": [
-        {
-            "id": "next.js13-udemy",
-            "title": "Next.js13をudemyで学ぶ",
-            "content": "Shin Codeさんの教材でNext.js13を学んでいます。",
-            "createdAt": "2025/ 07/02"
-        },
-        {
-            "id": "json-server",
-            "title": "JSONサーバー",
-            "content": "JSONサーバーを使って、簡単なAPIを作成しています。",
-            "createdAt": "2025/ 07/03"
-        }
-    ]
+  "posts": [
+    {
+      "id": "next.js13-udemy",
+      "title": "Next.js13をudemyで学ぶ",
+      "content": "Shin Codeさんの教材でNext.js13を学んでいます。",
+      "createdAt": "2025/07/02"
+    },
+    {
+      "id": "json-server",
+      "title": "JSONサーバー",
+      "content": "JSONサーバーを使って、Next.jsプロジェクトで手軽にAPIをモックアップする方法を学習中です。これにより、フロントエンド開発を効率的に進めています。",
+      "createdAt": "2025/07/03"
+    },
+    {
+      "id": "next-auth-integration",
+      "title": "Next.jsとNextAuth.jsで認証機能実装",
+      "content": "NextAuth.jsを使って、Next.jsアプリケーションに認証機能を追加する方法を検証しています。",
+      "createdAt": "2025/07/08"
+    },
+    {
+      "id": "Posts1",
+      "title": "1回目の投稿",
+      "content": "1回目の投稿です！",
+      "createdAt": "2025-07-08T10:40:06.821Z",
+      "updatedAt": "2025-07-08T10:40:06.821Z"
+    },
+    {
+      "id": "Posts2",
+      "title": "2回目の投稿",
+      "content": "2回目の投稿です！",
+      "createdAt": "2025-07-08T10:43:24.011Z",
+      "updatedAt": "2025-07-08T10:43:24.011Z"
+    }
+  ]
 }

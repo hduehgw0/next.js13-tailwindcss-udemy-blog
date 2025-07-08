@@ -10,7 +10,7 @@ const Article = async ({params}: {params: {id: string}}) => {
   return (
     <div className='max-w-3xl mx-auto p-5'>
         <Image
-            src="https://picsum.photos/1280/300?sig=1"
+            src={`https://picsum.photos/1280/300?sig=${detailArticle.id}`}
             alt="画像1"
             width={1280}
             height={300}
@@ -21,9 +21,9 @@ const Article = async ({params}: {params: {id: string}}) => {
             display: 'block',
             }}
         />
-        <h1 className='text-4xl text-center mb-10 mt-10'>ここがタイトルです。</h1>
+        <h1 className='text-4xl text-center mb-10 mt-10'>{detailArticle.title}</h1>
         <div className='text-lg leading-relaxed text-justify'>
-            <p>ここが本文です。</p>
+            <p>{detailArticle.content}</p>
         </div>
     </div>
   )
