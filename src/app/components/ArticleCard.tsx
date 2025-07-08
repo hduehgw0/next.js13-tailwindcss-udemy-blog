@@ -16,12 +16,7 @@ const ArticleCard = ({article}: ArticleCardProps) => {
           alt="画像1"
           width={1280}
           height={300}
-          style={{
-            width: '100%',
-            height: '300px',
-            objectFit: 'cover',
-            display: 'block',
-          }}
+          className="w-full h-[300px] object-cover"
         />
       </Link>
       <div className="bg-white flex flex-col justify-start p-6">
