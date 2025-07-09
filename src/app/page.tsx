@@ -3,10 +3,17 @@
 import Image from "next/image";
 import ArticleList from "./components/ArticleList";
 import { getAllArticles } from "@/blogAPI";
+import { supabase } from "@/utils/supabaseClient";
 // import { use, useEffect } from "react";
 
 export default async function Home() {
-  const articles = await getAllArticles();
+  // const articles = await getAllArticles();
+  // console.log(supabase);
+
+  const API_URL = process.env.NEXT_PUBLIC_API_KEY;
+
+  const res = await fetch(`${API_URL}/api`, {cache: "no-store",});
+  const articles = await res.json();
 
   // useEffect(() => {
   //   const getAllBlogs = async () => {
