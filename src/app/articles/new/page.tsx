@@ -1,8 +1,7 @@
 "use client";
 
-import { createArticle } from '@/blogAPI';
 import { useRouter } from 'next/navigation';
-import React, { use, useState } from 'react';
+import React, { useState } from 'react';
 
 const CreateBlogPage = () => {
   const router = useRouter();
@@ -20,7 +19,7 @@ const CreateBlogPage = () => {
 
     const API_URL = process.env.NEXT_PUBLIC_API_URL;
 
-    await fetch(`${API_URL}/api/create`, {
+    await fetch(`${API_URL}/api/blog`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -28,7 +27,7 @@ const CreateBlogPage = () => {
       body: JSON.stringify({
         id,
         title,
-        content,
+        content
       }),
     });
 
